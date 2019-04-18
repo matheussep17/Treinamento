@@ -47,5 +47,3 @@ private List<String> produtos = new ArrayList<>(Arrays.asList("Produto 1", "Prod
 		return true;
 	}
 }
-
-

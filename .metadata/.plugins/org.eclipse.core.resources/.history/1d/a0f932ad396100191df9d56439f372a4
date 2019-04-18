@@ -1,0 +1,5 @@
+package br.edu.unievangelica.ftt.seintegra.domain.curso;
+
+public class Curso {
+
+}

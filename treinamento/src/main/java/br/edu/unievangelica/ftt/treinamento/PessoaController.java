@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -24,12 +26,17 @@ public class PessoaController {
 	}
 	
 	@GetMapping("{index}")
-	public String findByIndex(@PathVariable int index) {
-		return pessoas.get(index);
+	public ResponseEntity<String> findByIndex(@PathVariable int index) {
+		try {
+			return new ResponseEntity<>(pessoas.get(index), HttpStatus.OK);
+		} catch (Exception e) {
+			return new ResponseEntity<>("Pessoa não encontrada", HttpStatus.NOT_FOUND);
+		}
 	}
 	
 	@DeleteMapping("{index}")
 	public boolean delete(@PathVariable int index) {
+		System.out.print(index);
 		pessoas.remove(index);
 		return true;
 	}

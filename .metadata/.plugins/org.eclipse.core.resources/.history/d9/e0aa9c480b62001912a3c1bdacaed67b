@@ -1,0 +1,34 @@
+package br.edu.unievangelica.ftt.seintegra.domain.mantenedora;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+
+import br.edu.unievangelica.ftt.seintegra.core.entity.AbstractEntity;
+import br.edu.unievangelica.ftt.seintegra.domain.endereco.Endereco;
+
+@Entity
+@Table(name = "mantenedora")
+
+public class Mantenedora extends AbstractEntity {
+
+	private static final long serialVersionUID = 1L;
+
+		@Column(name = "nome", length = 50, nullable = false, unique = true)
+		private String nome;
+		
+		@Column(name = "razao_social", length = 80, nullable = false)
+		private String razaoSocial;
+		
+		@Column(name = "cnpj", length = 18, nullable = false, unique = true)
+		private String cnpj;
+		
+		@OneToOne(cascade = CascadeType.ALL)
+		private Endereco endereco;
+
+		
+		
+		
+}

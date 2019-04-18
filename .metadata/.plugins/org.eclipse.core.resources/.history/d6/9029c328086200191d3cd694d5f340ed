@@ -1,0 +1,29 @@
+package br.edu.unievangelica.ftt.seintegra.domain.endereco;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import br.edu.unievangelica.ftt.seintegra.core.entity.AbstractEntity;
+
+@Entity
+@Table(name= "endereco")
+public class Endereco extends AbstractEntity {
+
+	private static final long serialVersionUID = 1L;
+	
+	@Column(name= "logradouro", length = 80 , nullable = false)
+	private String logradouro;
+	
+	@Column(name= "complemento", length = 30)
+	private String complemento;
+	
+	@Column(name= "bairro", length = 30)
+	private String bairro;
+	
+	@Column(name= "cidade", length = 80)
+	private String cidade;
+	
+	@Column(name = "estado", length = 30)
+	private String estado;
+}

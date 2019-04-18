@@ -1,0 +1,25 @@
+package br.edu.unievangelica.ftt.seintegra.domain.pais;
+
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+import br.edu.unievangelica.ftt.seintegra.core.entity.AbstractEntity;
+import br.edu.unievangelica.ftt.seintegra.domain.endereco.Endereco;
+
+
+@Entity
+@Table(name= "pais") 
+public class Pais extends AbstractEntity{
+	
+		private static final long serialVersionUID = 1L;
+		
+		@Column(name= "nome", length = 80 , nullable = false)
+		private String nome;
+		
+		@OneToMany
+		private List <Endereco> enderecos;
+}

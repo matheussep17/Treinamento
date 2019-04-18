@@ -1,0 +1,20 @@
+package br.edu.unievangelica.ftt.seintegra.domain.mantenedora;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "mantenedora")
+
+public class Mantenedora {
+
+		@Column(name = "nome", length = 50, nullable = false, unique = true)
+		private String nome;
+		
+		@Column(name = "razao_social", length = 80, nullable = false)
+		private String razaoSocial;
+		
+		@Column(name = "cnpj", length = 18, nullable = false, unique = true)
+		private String cnpj;
+}

@@ -1,0 +1,102 @@
+package br.edu.unievangelica.ftt.seintegra.domain.endereco;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+
+import br.edu.unievangelica.ftt.seintegra.core.entity.AbstractEntity;
+import br.edu.unievangelica.ftt.seintegra.domain.instituicao.Instituicao;
+import br.edu.unievangelica.ftt.seintegra.domain.mantenedora.Mantenedora;
+import br.edu.unievangelica.ftt.seintegra.domain.pais.Pais;
+
+@Entity
+@Table(name= "endereco")
+public class Endereco extends AbstractEntity {
+
+	private static final long serialVersionUID = 1L;
+	
+	@Column(name= "logradouro", length = 80 , nullable = false)
+	private String logradouro;
+	
+	@Column(name= "complemento", length = 30)
+	private String complemento;
+	
+	@Column(name= "bairro", length = 30)
+	private String bairro;
+	
+	@Column(name= "cidade", length = 80)
+	private String cidade;
+	
+	@Column(name = "estado", length = 30)
+	private String estado;
+	
+	@ManyToOne
+	@JoinColumn(name= "pais_id", referencedColumnName= "id")
+	private Pais pais;
+	
+	@OneToOne(mappedBy = "endereco")
+	private Mantenedora mantenedora;
+	
+	@OneToOne(mappedBy = "endereco")
+	private Instituicao instituicao;
+	
+	public String getLogradouro() {
+		return logradouro;
+	}
+
+	public Mantenedora getMantenedora() {
+		return mantenedora;
+	}
+
+	public void setMantenedora(Mantenedora mantenedora) {
+		this.mantenedora = mantenedora;
+	}
+
+	public Pais getPais() {
+		return pais;
+	}
+
+	public void setPais(Pais pais) {
+		this.pais = pais;
+	}
+
+	public void setLogradouro(String logradouro) {
+		this.logradouro = logradouro;
+	}
+
+	public String getComplemento() {
+		return complemento;
+	}
+
+	public void setComplemento(String complemento) {
+		this.complemento = complemento;
+	}
+
+	public String getBairro() {
+		return bairro;
+	}
+
+	public void setBairro(String bairro) {
+		this.bairro = bairro;
+	}
+
+	public String getCidade() {
+		return cidade;
+	}
+
+	public void setCidade(String cidade) {
+		this.cidade = cidade;
+	}
+
+	public String getEstado() {
+		return estado;
+	}
+
+	public void setEstado(String estado) {
+		this.estado = estado;
+	}
+	
+}

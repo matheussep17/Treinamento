@@ -1,0 +1,24 @@
+package br.edu.unievangelica.ftt.seintegra.domain.curso;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="curso")
+public class Curso {
+
+	@Id
+	@GeneratedValue(strategy= GenerationType.AUTO)
+	@Column(name = "id", nullable = false)
+	private Long id;
+	
+	@Column(name= "nome", length=80, unique = true, nullable = false )
+	private String nome;
+	
+	@Column(name="descricao", length=200)
+	private String descricao;
+}
