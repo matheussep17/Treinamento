@@ -1,0 +1,38 @@
+package br.edu.unievangelica.ftt.seintegra.domain.mantenedora;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import br.edu.unievangelica.ftt.seintegra.core.service.IService;
+
+@Service
+public class MantenedoraService implements IService<Mantenedora> {
+
+	
+	
+	@Override
+	public List<Mantenedora> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Mantenedora findById(long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Mantenedora save(Mantenedora object) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteById(long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

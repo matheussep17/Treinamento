@@ -1,0 +1,6 @@
+package br.edu.unievangelica.ftt.seintegra.domain.mantenedora;
+
+public interface  MantenedoraRepository extends JpaRepository <Mantenedora, Long>{
+
+	
+}

@@ -1,0 +1,49 @@
+package br.edu.unievangelica.ftt.seintegra.domain.mantenedora;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import br.edu.unievangelica.ftt.seintegra.core.controller.IController;
+
+@RestController
+@RequestMapping("/api/mantenedora")
+public class MantenedoraController implements IController<Mantenedora>{
+
+	@Autowired
+	private MantenedoraService mantenedoraService;
+	
+	@Override
+	@GetMapping
+	public ResponseEntity<?> findAll() {
+		return new ResponseEntity<>(mantenedoraService.findAll(),HttpStatus.OK);
+	}
+
+	@Override
+	public ResponseEntity<?> findById(long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ResponseEntity<?> save(Mantenedora object) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ResponseEntity<?> update(Mantenedora object) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ResponseEntity<?> deleteById(long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

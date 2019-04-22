@@ -1,0 +1,12 @@
+package br.edu.unievangelica.ftt.seintegra.core.controller;
+
+import org.springframework.http.ResponseEntity;
+
+public interface IController {
+
+		ResponseEntity<?> findAll();
+		
+		ResponseEntity<?> findById();
+		
+		ResponseEntity<?> save();
+}

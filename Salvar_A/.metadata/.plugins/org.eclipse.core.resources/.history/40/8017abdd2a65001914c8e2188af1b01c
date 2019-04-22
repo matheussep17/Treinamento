@@ -1,0 +1,45 @@
+package br.edu.unievangelica.ftt.seintegra.domain.mantenedora;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.stereotype.Service;
+
+import br.edu.unievangelica.ftt.seintegra.core.service.IService;
+
+@Service
+@SpringBootApplication
+@ComponentScan({"com.delivery.request"})
+@EntityScan("com.delivery.domain")
+@EnableJpaRepositories("com.delivery.repository")
+public class MantenedoraService implements IService<Mantenedora> {
+
+	@Autowired
+	private JpaRepository<Mantenedora, Long> repository;
+	
+	@Override
+	public List<Mantenedora> findAll() {
+		return repository.findAll();
+	}
+
+	@Override
+	public Mantenedora findById(long id) {
+		return repository.findById(id).get();
+	}
+
+	@Override
+	public Mantenedora save(Mantenedora object) {
+		return repository.save(object);
+	}
+
+	@Override
+	public void deleteById(long id) {
+		repository.deleteById(id);
+	}
+
+}
