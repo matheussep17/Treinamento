@@ -1,0 +1,5 @@
+package br.edu.unievangelica.ftt.seintegra.domain.pais;
+
+public class PaisService {
+
+}

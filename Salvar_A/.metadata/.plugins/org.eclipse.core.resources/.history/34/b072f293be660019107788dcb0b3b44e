@@ -1,0 +1,12 @@
+package br.edu.unievangelica.ftt.seintegra.domain.pais;
+
+import org.springframework.stereotype.Repository;
+
+import br.edu.unievangelica.ftt.seintegra.core.service.AbstractcService;
+
+
+	@Repository
+	public class PaisService extends AbstractcService<Pais>{
+		
+	}
+

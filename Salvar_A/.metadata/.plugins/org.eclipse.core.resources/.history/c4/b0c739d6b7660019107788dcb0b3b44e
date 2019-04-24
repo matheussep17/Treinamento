@@ -1,0 +1,5 @@
+package br.edu.unievangelica.ftt.seintegra.core.service;
+
+public abstract class AbstractcService {
+
+}

@@ -1,0 +1,15 @@
+package br.edu.unievangelica.ftt.seintegra.core.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import br.edu.unievangelica.ftt.seintegra.core.service.IService;
+
+public abstract class AbstractController <T> extends ResponseAbstractController implements IController{
+	
+	@Autowired
+	private IService<T> service;
+	
+	
+	
+
+}

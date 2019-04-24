@@ -1,0 +1,5 @@
+package br.edu.unievangelica.ftt.seintegra.core.controller;
+
+public abstract class AbstractController {
+
+}
