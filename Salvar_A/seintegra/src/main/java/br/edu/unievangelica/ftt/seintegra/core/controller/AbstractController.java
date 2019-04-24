@@ -2,6 +2,8 @@ package br.edu.unievangelica.ftt.seintegra.core.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.Errors;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -27,13 +29,13 @@ public abstract class AbstractController<T> extends ResponseAbstractController i
 	}
 	
 	@PostMapping
-	public ResponseEntity<?> save(@RequestBody T object){
-		return jsonResponse(service.save(object));
+	public ResponseEntity<?> save(@Validated @RequestBody T object, Errors errors){
+		return jsonResponse(service.save(object, errors));
 	}
 	
 	@PutMapping
-	public ResponseEntity<?> update(@RequestBody T object){
-		return jsonResponse(service.save(object));
+	public ResponseEntity<?> update(@Validated @RequestBody T object, Errors errors){
+		return jsonResponse(service.save(object, errors));
 	}
 	
 	@DeleteMapping("{id}")

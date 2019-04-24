@@ -1863,3 +1863,43 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2019-04-24 15:30:54,719 [Worker-44: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-04-24 15:30:54,720 [Worker-44: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2019-04-24 15:30:54,722 [Worker-44: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-24 15:30:54,724 [Worker-44: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 15:30:54,724 [Worker-44: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\aluno07\Documents\Treinamento\Salvar_A\seintegra\src\test\resources
+2019-04-24 16:15:40,668 [Worker-60: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 16:15:40,669 [Worker-60: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-24 16:15:40,670 [Worker-60: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-24 16:15:40,673 [Worker-60: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 16:15:40,673 [Worker-60: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\aluno07\Documents\Treinamento\Salvar_A\seintegra\src\test\resources
+2019-04-24 16:32:01,260 [Worker-65: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 16:32:01,262 [Worker-65: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-24 16:32:01,265 [Worker-65: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-24 16:32:01,268 [Worker-65: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 16:32:01,268 [Worker-65: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\aluno07\Documents\Treinamento\Salvar_A\seintegra\src\test\resources
+2019-04-24 16:35:45,959 [Worker-67: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 16:35:45,960 [Worker-67: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-24 16:35:45,962 [Worker-67: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-24 16:35:45,964 [Worker-67: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 16:35:45,965 [Worker-67: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\aluno07\Documents\Treinamento\Salvar_A\seintegra\src\test\resources
+2019-04-24 16:42:26,588 [Worker-73: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 16:42:26,589 [Worker-73: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-24 16:42:26,590 [Worker-73: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-24 16:42:26,593 [Worker-73: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 16:42:26,593 [Worker-73: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\aluno07\Documents\Treinamento\Salvar_A\seintegra\src\test\resources
+2019-04-24 16:58:49,178 [Worker-79: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 16:58:49,179 [Worker-79: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-24 16:58:49,181 [Worker-79: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-24 16:58:49,183 [Worker-79: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 16:58:49,183 [Worker-79: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\aluno07\Documents\Treinamento\Salvar_A\seintegra\src\test\resources
+2019-04-24 17:04:38,141 [Worker-82: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 17:04:38,142 [Worker-82: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-24 17:04:38,144 [Worker-82: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-24 17:04:38,146 [Worker-82: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 17:04:38,146 [Worker-82: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\aluno07\Documents\Treinamento\Salvar_A\seintegra\src\test\resources
+2019-04-24 17:08:29,252 [Worker-84: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 17:08:29,254 [Worker-84: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-24 17:08:29,256 [Worker-84: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-04-24 17:08:29,258 [Worker-84: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 17:08:29,259 [Worker-84: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\aluno07\Documents\Treinamento\Salvar_A\seintegra\src\test\resources
+2019-04-24 17:21:54,446 [Worker-93: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-04-24 17:21:54,447 [Worker-93: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-04-24 17:21:54,449 [Worker-93: Launching seintegra - SeintegraApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

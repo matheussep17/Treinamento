@@ -1,0 +1,5 @@
+package br.edu.unievangelica.ftt.seintegra.core.exception;
+
+public class BadRequestException extends RuntimeException {
+
+}

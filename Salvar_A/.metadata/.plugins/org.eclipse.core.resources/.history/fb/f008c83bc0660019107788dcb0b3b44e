@@ -1,0 +1,8 @@
+package br.edu.unievangelica.ftt.seintegra.domain.pais;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class PaisService {
+
+}

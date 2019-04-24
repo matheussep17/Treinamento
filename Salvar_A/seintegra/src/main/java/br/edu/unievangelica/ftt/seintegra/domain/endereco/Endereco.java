@@ -6,6 +6,7 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.validation.constraints.NotNull;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -35,6 +36,7 @@ public class Endereco extends AbstractEntity {
 	@Column(name = "estado", length = 30)
 	private String estado;
 	
+	@NotNull
 	@ManyToOne
 	@JoinColumn(name= "pais_id", referencedColumnName= "id")
 	private Pais pais;

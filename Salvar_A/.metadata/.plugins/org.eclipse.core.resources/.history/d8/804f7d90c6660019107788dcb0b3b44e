@@ -1,0 +1,7 @@
+package br.edu.unievangelica.ftt.seintegra.core.exception;
+
+public class NotFoundException extends RuntimeException {
+	public NotFoundException() {
+		super();
+	}
+}
